@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    padding-top: 40px;
+    padding-bottom: 96px;
+}
+
+.header {
+    margin-bottom: 84px;
+}
+
+.menu {
+    margin-top: 11px;
+    margin-bottom: 12px;
+}
+
+.info {
+    margin-bottom: 259px;
+}
+
+.title {
+    margin-bottom: 17px;
+}
+
+.info_buttons {
+    margin-top: 37px;
+}
+
+.video_link {
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
