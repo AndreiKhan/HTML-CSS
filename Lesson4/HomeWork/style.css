@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #FFF;
+}
+
+.header_box {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.item {
+    width: 310px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item_center {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.icon {
+    margin-bottom: 25px;
+}
+
+.heading {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.header_item_text {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.read_more {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.content {
+    background: #FAFAFA;
+    display: grid;
+    justify-items: center;
+}
+
+.title {
+    text-align: center;
+    padding-top: 92px;
+    margin-bottom: 19px;
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.title_text {
+    text-align: center;
+    margin-bottom: 55px;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    width: 682px;
+}
+
+.content_box {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+}
+
+.content_links {
+    display: grid;
+    justify-items: center;
+    background: #FFFFFF;
+    height: 549px;
+    margin-bottom: 100px;
+    align-items: baseline;
+}
+
+.content_link_center {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.content_item_text {
+    width: 310px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 39px;
+}
+
+.learn_more {
+    background: #F25822;
+    font-family: 'Gilroy-Bold';
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 36px 15px 46px;
+}
