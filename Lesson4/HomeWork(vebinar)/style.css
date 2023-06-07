@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.top {
+    padding-top: 40px;
+    padding-bottom: 96px;
+    width: 1920px;
+    display: grid;
+    justify-content: center;
+}
+
+.header {
+    margin-bottom: 84px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 11px;
+    margin-bottom: 12px;
+    display: flex;
+    width: 533px;
+    justify-content: space-between;
+}
+
+.menu_link {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.home_link {
+    color: #F25822;
+}
+
+.info {
+    margin-bottom: 259px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_img {
+    margin-left: 41px;
+}
+
+.title {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 17px;
+    width: 522px;
+}
+
+.text {
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    width: 466px;
+}
+
+.info_buttons {
+    display: flex;
+    margin-top: 37px;
+    width: 302px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.button_start {
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: 0;
+    padding: 15px 36px 16px 35px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.video_link {
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.logos {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
