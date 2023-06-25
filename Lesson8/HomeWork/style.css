@@ -59,7 +59,7 @@ a {
 
 .hidden_menu {
     position: absolute;
-    right: 0px;
+    right: -232px;
     top: 75px;
     padding: 32px;
     width: 232px;
@@ -161,6 +161,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+
+.sale_category:hover {
+    transform: scale(1.05);
 }
 
 .prev5mobile {
